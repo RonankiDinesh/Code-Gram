@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function SignupForm() {
     return (
       <>
@@ -40,6 +42,21 @@ export default function SignupForm() {
                   <input
                     id="username"
                     name="username"
+                    type="text"
+                    required
+                    className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm"
+                  />
+                </div>
+              </div>
+              {/* OpenSource */}
+              <div>
+                <label htmlFor="github-username" className="block text-sm font-medium text-gray-900">
+                  Github Username
+                </label>
+                <div className="mt-2">
+                  <input
+                    id="github-username"
+                    name="github-username"
                     type="text"
                     required
                     className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm"

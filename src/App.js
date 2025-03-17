@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import LoginForm from "./components/LoginForm";
 import SignupForm from "./components/SignupForm";
+import Tutorials from "./pages/Tutorials";
+import Profile from "./pages/Profile";
 
 const App = ()=>{
   return (
@@ -14,6 +16,8 @@ const App = ()=>{
         <Routes>
            <Route path = '/login' element = {<LoginForm />} />
            <Route path = '/signup' element = {<SignupForm />} />
+           <Route path = '/tutorials' element = {<Tutorials />} />
+           <Route path = '/profile' element = {<Profile />} />
         </Routes>
       <Footer />
     </Router>
