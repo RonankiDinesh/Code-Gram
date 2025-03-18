@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center">
         <h1 className="text-xl font-bold">CodeGram</h1>
         <div>
-          <Link to="/" className="mx-2">Ho</Link>
+          <Link to="/" className="mx-2">Home</Link>
           <Link to="/tutorials" className="mx-2">Tutorials</Link>
           <Link to="https://github.com/RonankiDinesh" className="mx-2">Open Source</Link>
           <Link to="/login" className="mx-2">Login</Link>
